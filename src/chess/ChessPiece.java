@@ -8,7 +8,7 @@ public class ChessPiece extends Piece{
 	private Color color;
 
 	
-	public ChessPiece(Board board, Color color) {
+	public ChessPiece( Color color,Board board) {
 		super(board);
 		this.color = color;
 	}
